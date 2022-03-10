@@ -14,7 +14,6 @@ Microphone.prototype.toggleOnOff = () => {
   this.isOn = !this.isOn;
 };
 
-
 const microphone = new Microphone();
 const microphone2 = new Microphone("white");
 
