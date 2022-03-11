@@ -4,9 +4,9 @@ const microphone = {
   isOn: true,
   toggleOnOff: function () {
     if (microphone.isOn) {
-      console.log('desligar');
+      console.log('off');
     } else {
-      console.log('ligar');
+      console.log('on');
     }
     microphone.isOn = !microphone.isOn;
   },

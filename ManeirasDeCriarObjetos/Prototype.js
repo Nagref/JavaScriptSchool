@@ -7,9 +7,9 @@ function Microphone(color = "black") {
 
 Microphone.prototype.toggleOnOff = () => {
   if (this.isOn) {
-    console.log('desligar');
+    console.log('off');
   } else {
-    console.log('ligar');
+    console.log('on');
   }
   this.isOn = !this.isOn;
 };

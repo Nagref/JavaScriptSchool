@@ -4,9 +4,9 @@ function createMicrophone(color = 'black') {
 
   function toggleOnOff() {
     if (isOn) {
-      console.log('desligar');
+      console.log('off');
     } else {
-      console.log('ligar');
+      console.log('on');
     }
     isOn = !isOn;
   }
